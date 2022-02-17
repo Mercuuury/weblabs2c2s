@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h3 class="navbar__title">Вертикальное меню</h3>
+        <ul class="vertical__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Товары</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О нас</a></li>
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <h3 class="navbar__title">Горизонтальное меню</h3>
+        <ul class="horizontal__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Товары</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О нас</a></li>
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <h3 class="navbar__title">Многоуровневое меню</h3>
+        <ul class="vertical__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Блог</a></li>
+            <li>
+                <a href="#">Магазин</a>
+                <ul>
+                    <li>
+                        <a href="#">Товары</a>
+                        <ul>
+                            <li><a href="#">Категории</a></li>
+                            <li><a href="#">Скидки</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Услуги</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Информация</a>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <h3 class="navbar__title">Выпадающее меню</h3>
+        <ul class="dd__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Блог</a></li>
+            <li>
+                <a href="#">Магазин   v</a>
+                <ul>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Услуги</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Информация   v</a>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="social">
+        <a href="#" class="fa fa-facebook">Facebook</a>
+        <a href="#" class="fa fa-twitter">Twitter</a>
+        <a href="#" class="fa fa-youtube">YouTube</a>
+        <a href="#" class="fa fa-vk">VK</a>
+        <a href="#" class="fa fa__rounded fa-youtube">YT</a>
+        <a href="#" class="fa fa__rounded fa-vk">VK</a>
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+    <div class="pagination border">
+        <a href="#">&laquo;</a>
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+    <div class="comments">
+        <form>
+            <h3>Комментарии</h3>
+            <textarea name="comment"></textarea>
+            <input type="submit">
+        </form>
+        <div class="comment">
+            <div class="author">Фамилия Имя <span class="date">17.02.2020 18:36</span></div>
+            <hr>
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis ultrices quam. Suspendisse quis dolor at nisl placerat consectetur. Fusce malesuada augue ut orci porta, vitae consequat ligula suscipit.</div>
+        </div>
+        <div class="comment2">
+            <div class="author2">Фамилия Имя <span class="date">18.02.2020 17:45</span></div>
+            <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis ultrices quam. Suspendisse quis dolor at nisl placerat consectetur. Fusce malesuada augue ut orci porta, vitae consequat ligula suscipit.</div>
+        </div>
+    </div>
+</body>
+</html>
