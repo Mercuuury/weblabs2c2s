@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 2</title>
+</head>
+<body>
+    <!-- Смайлик (грусть) -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 75 q 15 -30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+
+    <!-- Смайлик (улыбка) -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 60 q 15 30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+
+    <!-- Солнце -->
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" r="40" fill="yellow" />
+        <line x1="150" y1="0" x2="150" y2="100" style="stroke:yellow;stroke-width:2" />
+        <line x1="150" y1="300" x2="150" y2="200" style="stroke:yellow;stroke-width:2" />
+        <line x1="0" y1="0" x2="110" y2="110" style="stroke:yellow;stroke-width:2" />
+        <line x1="190" y1="190" x2="300" y2="300" style="stroke:yellow;stroke-width:2" />
+        <line x1="0" y1="300" x2="110" y2="190" style="stroke:yellow;stroke-width:2" />
+        <line x1="300" y1="0" x2="190" y2="110" style="stroke:yellow;stroke-width:2" />
+        <line x1="0" y1="150" x2="100" y2="150" style="stroke:yellow;stroke-width:2" />
+        <line x1="200" y1="150" x2="300" y2="150" style="stroke:yellow;stroke-width:2" />
+    </svg>
+
+    <!-- Эллипс с надписью SVG -->
+    <svg height="130" width="500">
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="red" />
+        <text fill="#ffffff" font-size="45" font-family="Arial" x="50" y="86">SVG</text>
+    </svg>
+
+    <!-- Домик -->
+    <svg height="200" width="250">
+        <path d="M145 0 L75 100 L215 100 Z" fill="black" />
+        <path d="M100 100 H 190 V 190 H 100 L 100 100" fill="brown"/>
+    </svg>
+
+    <!-- Кружочки -->
+    <svg width="260" height="140">
+        <circle r="50" fill="lightgreen" cx="50" cy="50" />
+        <circle r="35" fill="green" cx="50" cy="50" />
+        <circle r="20" fill="darkgreen" cx="50" cy="50" />
+        <circle r="5" fill="lime" cx="50" cy="50" />
+    </svg>
+
+    <!-- Флаг России -->
+    <svg width="500" height="300">
+        <rect width="500" height="100" style="fill:rgb(255, 255, 255);" />
+        <rect y="100" width="500" height="100" style="fill:rgb(0,0,255);" />
+        <rect y="200" width="500" height="100" style="fill:rgb(255, 0, 0);" />
+        <rect width="500" height="300" style="fill:none;stroke-width:3;stroke:rgb(0,0,0);" />
+    </svg>
+
+    <!-- Флаг Украины -->
+    <svg width="400" height="250">
+        <rect width="400" height="125" style="fill:rgb(0, 225, 255);" />
+        <rect y="125" width="400" height="125" style="fill:yellow;" />
+        <rect width="400" height="250" style="fill:none;stroke-width:3;stroke:rgb(0,0,0);" />
+    </svg>
+
+    <!-- Флаг Шотландии -->
+    <svg width="300" height="200">
+        <rect width="300" height="200" style="fill:rgb(0,0,255);" />
+        <line x1="0"   y1="0" x2="300" y2="200" style="stroke:rgb(255, 255, 255);stroke-width:25" />
+        <line x1="300" y1="0" x2="0"   y2="200" style="stroke:rgb(255, 255, 255);stroke-width:25" />
+        <rect width="300" height="200" style="fill:none;stroke-width:3;stroke:rgb(0,0,0);" />
+    </svg>
+
+    <!-- Квадрат с поворотом на 45 градусов -->
+    <svg width="350" height="280">
+        <rect x="0" y="170" width="150" height="150" transform="rotate(-45)" style="fill:blue;opacity:0.5;stroke:red;stroke-width:5;" />
+    </svg>
+
+    <!-- Закругленный квадрат -->
+    <svg width="300" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150" transform="skewX(20)"
+            style="fill:red;stroke:blue;stroke-width:5;opacity:0.5" />
+    </svg>
+
+    <!-- Круг -->
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    
+    <!-- Эллипс -->
+    <svg height="140" width="500">
+        <ellipse cx="200" cy="80" rx="100" ry="50" style="fill:green;stroke:purple;stroke-width:2" />
+    </svg>
+    
+    <!-- Прямая линия -->
+    <svg height="210" width="300">
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:black;stroke-width:2" />
+    </svg>
+
+    <!-- Ломаная линия -->
+    <svg height="220" width="300">
+        <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160, 160,160, 160, 200"
+        style="fill:white;stroke:black;stroke-width:4" />
+    </svg>
+
+    <!--viewBox 
+        viewBox дает возможность указать, что данный набор графических элементов 
+        растягивается, чтобы уместиться в определенный элемент-контейнер. -->
+    <svg width="100" height="100" viewBox="0 0 50 50">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 75 q 15 -30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+
+    <!-- viewBox -->
+    <svg width="100" height="100" viewBox="50 50 50 50">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 75 q 15 -30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+    
+    <!--preserveAspectRatio 
+        Если пропорции ширины и высоты области просмотра и viewBox не совпадают, 
+        то артибут preserveAspectRatio указывает браузеру, как отображать рисунок.-->
+    <svg width="200" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 60 q 15 30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+
+    <!--preserveAspectRatio
+        xMaxYMax выравнивают нижний правый угол viewBox по нижнему правому углу области просмотра.
+        meet сохраняет пропорции, масштабируя viewBox, чтобы уместиться в область просмотра. -->
+    <svg width="200" height="100" viewBox="0 0 100 100" preserveAspectRatio="xMaxYMax meet">
+        <circle cx="50" cy="50" r="40" fill="yellow" />
+        <circle cx="40" cy="40" r="5" fill="black" />
+        <circle cx="60" cy="40" r="5" fill="black" />
+        <path d="M 35 60 q 15 30 30 0" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+</body>
+
+</html>
