@@ -1,0 +1,109 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1320px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 14px 1fr;
+    grid-gap: 2vw;
+}
+
+.flex-parent {
+    display: flex;
+    overflow: hidden;
+    padding: 3px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.flex-child {
+    display: block;
+    padding: 0px 46px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 132px;
+    color: #FFFFFF;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.jcc {
+    justify-content: center;
+}
+.jcb {
+    justify-content: space-between;
+}
+.jca {
+    justify-content: space-around;
+}
+.jce {
+    justify-content: flex-end;
+}
+
+.ais {
+    align-items: flex-start;
+}
+.aie {
+    align-items: flex-end;
+}
+.aic {
+    align-items: center;
+}
+.aib {
+    align-items: baseline;
+}
+
+.fdr {
+    flex-direction: row;
+}
+.fdrr {
+    flex-direction: row-reverse;
+}
+.fdc {
+    flex-direction: column;
+}
+.fdcr {
+    flex-direction: column-reverse;
+}
+
+.fww {
+    flex-wrap: wrap;
+}
+.fwwr {
+    flex-wrap: wrap-reverse;
+}
+
+.ovv {
+    overflow: visible;
+}
+
+.acc {
+    align-content: center;
+}
+.acs {
+    align-content: flex-start;
+}
+.ace {
+    align-content: flex-end;
+}
+.acsa {
+    align-content: space-around;
+}
+.acsb {
+    align-content: space-between;
+}
+.acse {
+    align-content: space-evenly;
+}

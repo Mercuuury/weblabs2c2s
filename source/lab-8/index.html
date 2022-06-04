@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Flexbox</h1>
+        <h2>Flex контейнер</h2>
+        <div class="flex-parent">
+            <div class="flex-child">1</div>
+            <div class="flex-child">2</div>
+            <div class="flex-child">3</div>
+        </div>
+        <hr>
+        <h2>Свойство justify-content</h2>
+        <p>Свойство justify-content выравнивает flex-элементы по главной оси текущей строки flex-контейнера.</p>
+        <div class="container">
+            <h3>justify-content: flex-end</h3>
+            <h3>justify-content: center</h3>
+            <div class="flex-parent jce">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent jcc">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <div class="container">
+            <h3>justify-content: space-between</h3>
+            <h3>justify-content: space-around</h3>
+            <div class="flex-parent jcb">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent jca">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <hr>
+        <h2>Свойство align-items</h2>
+        <p>Cвойство align-items устанавливает выравнивание flex-элементов вдоль поперечной оси контейнера.</p>
+        <div class="container">
+            <h3>align-items: flex-start</h3>
+            <h3>align-items: flex-end</h3>
+            <div class="flex-parent ais">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent aie">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <div class="container">
+            <h3>align-items: center</h3>
+            <h3>align-items: baseline</h3>
+            <div class="flex-parent aic">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent aib">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <hr>
+        <h2>Свойство flex-direction</h2>
+        <p>Свойство flex-direction указывает, как flex-элементы выкладываются во flex-контейнере, путём установки направления главной оси flex-контейнера.</p>
+        <div class="container">
+            <h3>flex-direction: row</h3>
+            <h3>flex-direction: row-reverse</h3>
+            <div class="flex-parent fdr">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent fdrr">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <div class="container">
+            <h3>flex-direction: column</h3>
+            <h3>flex-direction: column-reverse</h3>
+            <div class="flex-parent fdc">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+            <div class="flex-parent fdcr">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+            </div>
+        </div>
+        <hr>
+        <h2>Свойство flex-wrap</h2>
+        <p>Свойство flex-wrap управляет тем, как flex-контейнер будет выкладывать свои элементы, и направлением, в котором будут укладываться новые строки.</p>
+        <h3>flex-wrap: nowrap</h3>
+        <div class="flex-parent ovv">
+            <div class="flex-child">1</div>
+            <div class="flex-child">2</div>
+            <div class="flex-child">3</div>
+            <div class="flex-child">4</div>
+            <div class="flex-child">5</div>
+            <div class="flex-child">6</div>
+        </div>
+        <div class="container">
+            <h3>flex-wrap: wrap</h3>
+            <h3>flex-wrap: wrap-reverse</h3>
+            <div class="flex-parent fww">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+            <div class="flex-parent fwwr">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+        </div>
+        <hr>
+        <h2>Свойство align-content</h2>
+        <p>Свойство align-content выравнивает строки flex-контейнера во flex-контейнере, когда есть дополнительное пространство по поперечной оси.</p>
+        <div class="container">
+            <h3>align-content: stretch</h3>
+            <h3>align-content: center</h3>
+            <div class="flex-parent fww ais">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+            <div class="flex-parent fww acc">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+        </div>
+        <div class="container">
+            <h3>align-content: flex-start</h3>
+            <h3>align-content: flex-end</h3>
+            <div class="flex-parent fww acs">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+            <div class="flex-parent fww ace">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+        </div>
+        <div class="container">
+            <h3>align-content: space-around</h3>
+            <h3>align-content: space-between</h3>
+            <div class="flex-parent fww acsa">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+            <div class="flex-parent fww acsb">
+                <div class="flex-child">1</div>
+                <div class="flex-child">2</div>
+                <div class="flex-child">3</div>
+                <div class="flex-child">4</div>
+                <div class="flex-child">5</div>
+                <div class="flex-child">6</div>
+            </div>
+        </div>
+        <h3>align-content: space-evenly</h3>
+        <div class="flex-parent fww acse">
+            <div class="flex-child">1</div>
+            <div class="flex-child">2</div>
+            <div class="flex-child">3</div>
+            <div class="flex-child">4</div>
+            <div class="flex-child">5</div>
+            <div class="flex-child">6</div>
+        </div>
+    </div>
+</body>
+</html>

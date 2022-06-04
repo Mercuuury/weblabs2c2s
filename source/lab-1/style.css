@@ -13,32 +13,32 @@ body {
     margin-bottom: 15px;
 }
 
-.vertical__list {
+.vertical-list {
     padding: 0;
     list-style: none;
 }
-.vertical__list a {
+.vertical-list a {
     text-decoration: none;
     outline: none;
     display: block;
     padding: 5px 0; 
     color: black;
 }
-.vertical__list a:hover {
+.vertical-list a:hover {
     color: brown;
 }
 
-.horizontal__list {
+.horizontal-list {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 650px;
     text-align: center;
 }
-.horizontal__list li {
+.horizontal-list li {
     display: inline;
 }
-.horizontal__list a {
+.horizontal-list a {
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -47,39 +47,42 @@ body {
     width: 100px;
     border: 2px solid black;
 }
-.horizontal__list a:hover {
+.horizontal-list a:hover {
     color: brown;
 }
 
-.dd__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.dd-list {
     width: 650px;
     text-align: center;
 }
-.dd__list, .dd__list ul {
+.dd-list, .dd-list ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.dd__list ul {
+.dd-list ul {
     display: none;
     position: absolute;
     top: 100%;
 }
-.dd__list ul li {
-    float: none;
-}
-.dd__list li {
+.dd-list li {
     float: left;
     position: relative;
     height: 100%;
 }
-.dd__list li:hover ul { 
+.dd-list li:hover a{
+    color: brown;
+}
+.dd-list li:hover ul li a {
+    color: black;
+}
+.dd-list li:hover ul li:hover a {
+    color: brown;
+}
+.dd-list li:hover ul { 
     display: block; 
 }
-.dd__list li a {
+.dd-list li a {
     text-decoration: none;
     outline: none;
     display: inline-block;

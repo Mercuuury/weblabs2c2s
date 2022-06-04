@@ -1,0 +1,53 @@
+@media print {
+    nav, .btn, .navbar-toggler, #question, form {
+        display: none;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .row {
+        margin: 0 auto;
+    }
+
+    h3, h2, .footer {
+        margin-top: 2cm;
+        display: block;
+        color: black;
+    }
+    
+    section {
+        break-after: page;
+    }
+    
+    .technologies .row {
+        break-after: page;
+    }
+    
+    .technologies .row + .row {
+        margin-top: 4cm;
+    }
+
+    .technologies img {
+        display: block;
+        margin: 0 auto;
+        width: 15cm;
+    }
+
+    .contact map {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .contact .form {
+        height: 0;
+        margin-bottom: 0;
+    }
+
+    iframe {
+        margin: 0 auto;
+        width: 100%;
+        min-height: 500px;
+    }
+}
